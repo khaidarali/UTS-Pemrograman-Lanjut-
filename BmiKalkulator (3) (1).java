@@ -4,10 +4,10 @@ public class BmiKalkulator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Masukkan tinggi badan (cm): ");
+        System.out.print("Masukkan tinggi badan (cm): ");
         double tinggiBadan = input.nextDouble();
 
-        System.out.println("Masukkan berat badan (kg): ");
+        System.out.print("Masukkan berat badan (kg): ");
         double beratBadan = input.nextDouble();
 
         double tinggiBadanM = tinggiBadan / 100.0;
@@ -32,3 +32,4 @@ public class BmiKalkulator {
         return beratBadan / (tinggiBadanM * tinggiBadanM);
     }
 }
+
